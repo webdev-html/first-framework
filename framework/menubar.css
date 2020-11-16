@@ -1,0 +1,27 @@
+/*since these are just templates, you can change anything you want, like the pixel size of a picture, so it dosen't limit you*/
+/*us the class mastermenubarblock for a big black column for style for your menubar*/
+/*use the class menubarblock for the links that you want to animate when you click the menubar(to see the animation code, go to menubar.js and change it there*/
+.mastermenubarblock {
+    width: 250px;
+    height: 1000px;
+    background-color: black;
+    color: white;
+}
+.menubarblock {
+    width: 250px;
+    height: 100px;
+}
+
+#menubaricon {
+    float: left;
+    width: 55px;
+    height: 55px;
+
+}
+
+#menubaricon:hover {
+    float: left;
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+}
