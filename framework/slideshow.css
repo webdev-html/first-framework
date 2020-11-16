@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imgbox {
+    width: 50%;
+    height: 500px;
+    background-color: black;
+}
+#img {
+    width: 100%;
+    height: 100%;
+}
+
+#arrowfor {
+    width: 20%;
+    height: 20%;
+    float:right;
+}
+
+#arrowfor:hover {
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+    float: right;
+}
+
+#arrowback {
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+
+#arrowback:hover {
+    width: 20%;
+    height: 20%;
+    float: left;
+    cursor: pointer;
+}
