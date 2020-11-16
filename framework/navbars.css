@@ -1,0 +1,126 @@
+.vernavcon {
+    height: 1050px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    font-size: 350%;
+    text-transform: capitalize;
+    
+}
+.veritem {
+    height: 190px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+}
+
+.veritem:hover {
+    height: 190px;
+    width: 250px;
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.hornavitem{
+    height: 100px;
+    width: 250px;
+    text-transform: capitalize;
+    margin: 2.5in;
+}
+.hornavitem:hover {
+    height: 100px;
+    width: 250px;
+    text-transform: capitalize;
+    background-color: forestgreen;
+    cursor: pointer;
+}
+
+.hornavcon {
+    height: 80px;
+    width: 2050px;
+    background-color: black;
+    color: white;
+    font-size: 400%;
+}
+@media only screen and (max-width:1024px) {
+    .hornavcon {
+        height: 180px;
+        width: 1050px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: 300%;
+        text-align: center;
+    }
+    .veritem:hover {
+        height: 190px;
+        width: 200px;
+        background-color: forestgreen;
+        color: white;
+    }
+
+    .veritem {
+        height: 190px;
+        width: 200px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    .vernavcon {
+        height: 1050px;
+        width: 200px;
+        background-color: black;
+        color: white;
+        font-size: 170%;
+        
+    }
+}
+@media only screen and (max-width: 768px) {
+    .hornavcon {
+        height: 120px;
+        width: 500px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: 200%;
+        text-align: center;
+    }
+    .vernavcon {
+        height: 1050px;
+        width: 200px;
+        background-color: black;
+        color: white;
+        font-size: 170%;
+        
+    }
+    .veritem:hover {
+        height: 190px;
+        width: 200px;
+        background-color: forestgreen;
+        color: white;
+    }
+    .veritem {
+        height: 190px;
+        width: 200px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .hornavcon {
+        height: 120px;
+        width: 2000px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: 300%;
+        
+    }
+}
+
+
+* {
+    padding:0;
+    margin:0;
+}
