@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-.imgbox {
+#imgbox {
     width: 50%;
     height: 500px;
     background-color: black;
@@ -38,3 +38,25 @@
     float: left;
     cursor: pointer;
 }
+
+#present {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 100px;
+    float:right;
+    font-size: 200%;
+    text-transform: capitalize;
+}
+#present:hover {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 100px;
+    float:right;
+    font-size: 200%;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+
