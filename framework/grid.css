@@ -1,0 +1,22 @@
+.gridbox {
+    width: 250px;
+    height: 250px;
+    font-size: 200%;
+}
+@media only screen and (max-width:1024px) {
+    .gridbox {
+        width: 180px;
+        height: 180px;
+        font-size: 150%;
+
+    }
+}
+@media only screen and (max-width:768px) {
+    .gridbox {
+        width: 150px;
+        height: 150px;
+        font-size: 130%;
+
+    }
+}
+
