@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="slideshow.css">
     <link rel="stylesheet" href="menubar.css">
     <link rel="stylesheet" href="navbars.css">
-    <link rel="stylesheet" href="slideshow.css">
 </head>
-<body>
-    
+<body id="body">
+    <script src="slideshow.js">
 
+    </script>
+
+    <script src="modes.js">
+
+    </script>
+
+    <div id="imgbox">
+        <img src="placeholder pictures/menubaricon.png" id="img">
+        <img src="placeholder pictures/White-Arrow-back.jpg" id="arrowback" onclick="slide_backward()">
+        <img src="placeholder pictures/White-Arrow.jpg" id="arrowfor" onclick="slide_forward()">
+    </div>
+   
+    <button type="button" onclick="darkmode()" id="modes">turn on dark mode</button>
 </body>
 </html>
