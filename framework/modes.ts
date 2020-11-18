@@ -11,6 +11,7 @@ function darkmode() {
 
 }
 
+
 function lightmode() {
     body.style.backgroundColor = "white"
     body.style.color = "black"
