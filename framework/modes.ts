@@ -21,3 +21,4 @@ function lightmode() {
     document.getElementById("modes").style.color = "white"
   
 }
+
