@@ -5,6 +5,9 @@ let present = document.getElementById("present")
 let menubaricon = document.getElementById("menubaricon")
 let vernav = document.getElementsByClassName("vernavcon")
 let mode = document.getElementById("modes")
+let switcher = 0
+let colorbody = document.getElementById("body").style.color
+let bgcolorbody = document.getElementById("body").style.backgroundColor
 
 let slides = {
     slidesize:function(width:string,height:string) {
@@ -46,7 +49,6 @@ let slides = {
         arrowback.style.height = square
         return square
     },
-
     slidepresenttextcolor:function(textcolor:string) {
         present.style.color = textcolor
         return textcolor
@@ -93,7 +95,21 @@ let modes = {
         mode.style.backgroundColor = bgcolor
         return bgcolor
         return color
+        
    },
+
+   buttonsize:function(width:string, height:string) {
+       mode.style.width = width
+       mode.style.height = height
+       return width
+       return height
+   },
+
+   buttonsquare:function(square:string) {
+       mode.style.height = square
+       mode.style.width = square
+       return square
+   }
   
     
 

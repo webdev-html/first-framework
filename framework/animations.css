@@ -1,0 +1,105 @@
+@keyframes strobelights {
+    5%{background-color: black;}
+    15%{background-color: white;}
+    20%{background-color: black;}
+    24%{background-color: white;}
+    27%{background-color: black;}
+    29%{background-color: white;}
+    30%{background-color: black;}
+    32%{background-color: white;}
+    35%{background-color: black;}
+    39%{background-color: white;}
+    44%{background-color: black;}
+    45%{background-color: white;}
+    47%{background-color: black;}
+    50%{background-color: white;}
+    54%{background-color: black;}
+    60%{background-color: white;} 
+    67%{background-color: black;}
+    68%{background-color: black;}
+    69%{background-color: white;}
+    77%{background-color: black;}
+    79%{background-color: white;}
+    85%{background-color: black;}
+    100%{background-color: white;}
+
+}
+
+.strobelights {
+    animation: strobelights;
+    animation-duration: 1s;
+}
+
+@keyframes discolights {
+    5%{background-color: rgb(255, 0, 0);}
+    15%{background-color: rgb(0, 255, 42);}
+    20%{background-color: rgb(82, 0, 0);}
+    25%{background-color: rgb(55, 0, 255);}
+    30%{background-color: rgb(255, 255, 255);}
+    35%{background-color: rgb(0, 225, 255);}
+    40%{background-color: rgb(255, 0, 242);}
+    50%{background-color: rgb(0, 156, 91);}
+    55%{background-color: rgb(20, 0, 56);}
+    60%{background-color: rgb(167, 0, 0);}
+    65%{background-color: rgb(0, 140, 255);}
+    75%{background-color: rgb(0, 94, 182);}
+    77%{background-color: rgb(255, 0, 64);}
+    79%{background-color: rgb(70, 0, 64);}
+    85%{background-color: white;}
+    90%{background-color: rgb(255, 0, 0);}
+    100%{background-color: white;}
+}
+
+.discolights {
+    animation: discolights;
+    animation-duration: 1s;
+}
+
+@keyframes flashbang {
+    40%{background-color: rgb(255, 255, 255);}
+    80%{background-color: rgb(0, 0, 0);}
+    100%{background-color: rgb(255, 255, 255)}
+   
+}
+
+.flashbang {
+    animation: flashbang;
+    animation-duration: 1s;
+    
+}
+
+@keyframes fade {
+    10%{background-color: rgba(0,0,0,0.9);}
+    20%{background-color: rgba(0,0,0,0.8);}
+    30%{background-color: rgba(0,0,0,0.7);}
+    40%{background-color: rgba(0,0,0,0.6);}
+    50%{background-color: rgba(0,0,0,0.5);}
+    60%{background-color: rgba(0,0,0,0.4);}
+    70%{background-color: rgba(0,0,0,0.3);}
+    80%{background-color: rgba(0,0,0,0.2);}
+    90%{background-color: rgba(0,0,0,0.1);}
+    100%{background-color: rgba(0,0,0,0);}
+}
+
+.fade {
+    animation: fade;
+    animation-duration: 1s;
+}
+
+@keyframes bigsize{
+    10%{background-color: black; font-size: 120%; width: 120%; height: 120%;}
+    20%{background-color: black; font-size: 140%;width: 140%; height: 140%;}
+    30%{background-color: black; font-size: 160%;width: 160%; height: 160%;}
+    40%{background-color: black; font-size: 180%;width: 180%; height: 180%;}
+    50%{background-color: black; font-size: 200%;width: 200%; height: 200%;}
+    60%{background-color: black; font-size: 220%;width: 220%; height: 220%;}
+    70%{background-color: black; font-size: 240%;width: 240%; height: 240%;}
+    80%{background-color: black; font-size: 260%;width: 260%; height: 260%;}
+    90%{background-color: black; font-size: 280%;width: 280%; height: 280%;}
+    100%{background-color: black; font-size: 300%;width: 300%; height: 300%;}
+}
+
+.bigsize {
+    animation: bigsize;
+    animation-duration: 1s;
+}

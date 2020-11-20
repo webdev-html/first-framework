@@ -1,3 +1,5 @@
+
+
 let body = document.getElementById("body")
 
 
@@ -19,6 +21,6 @@ function lightmode() {
     document.getElementById("modes").innerHTML = "turn on dark mode"
     document.getElementById("modes").style.backgroundColor = "black"
     document.getElementById("modes").style.color = "white"
+
   
 }
-
