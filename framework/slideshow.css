@@ -60,3 +60,25 @@
 
 }
 
+.slideshowbutton {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 90px;
+    float: right;
+    text-transform: capitalize;
+    font-size: 200%;
+}
+
+.slideshowbutton:hover {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 90px;
+    float:right;
+    font-size: 200%;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+

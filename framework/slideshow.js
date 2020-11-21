@@ -1,4 +1,6 @@
 //you can change the code or pictures, these pictures are just for placeholders, and you can add a lot more slides to the slideshow or optimize the code
+let lasturl = "placeholder pictures/finalframe.png";
+let firsturl = "placeholder pictures/menubaricon.png";
 function slide_forward() {
     document.getElementById("img").src = "placeholder pictures/x.png";
     document.getElementById("arrowfor").onclick = slide_forward2;
@@ -20,7 +22,7 @@ function slide_forward4() {
     document.getElementById("arrowback").onclick = slide_backward3;
 }
 function slide_forward5() {
-    document.getElementById("img").src = "placeholder pictures/finalframe.png";
+    document.getElementById("img").src = lasturl;
     document.getElementById("arrowfor").onclick = slide_forward6;
     document.getElementById("arrowback").onclick = slide_backward2;
 }
@@ -74,4 +76,14 @@ function stopslideshow() {
     document.getElementById("present").style.fontSize = "200%";
     document.getElementById("img").style.height = "100%";
     document.getElementById("present").onclick = presentslideshow;
+}
+function lastslide() {
+    document.getElementById("img").src = lasturl;
+    document.getElementById("arrowback").onclick = slide_backward2;
+    document.getElementById("arrowfor").onclick = slide_forward6;
+}
+function backtostart() {
+    document.getElementById("img").src = firsturl;
+    document.getElementById("arrowback").onclick = slide_backward;
+    document.getElementById("arrowfor").onclick = slide_forward;
 }

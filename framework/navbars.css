@@ -35,7 +35,7 @@
     height: 100px;
     width: 250px;
     text-transform: capitalize;
-    background-color: forestgreen;
+    color: cyan;
     cursor: pointer;
 }
 
