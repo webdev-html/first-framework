@@ -1,0 +1,17 @@
+#username {
+    width: 500px;
+    height: 20px;
+    font-size: 150%;
+    
+}
+
+#password {
+    width: 500px;
+    height: 20px;
+    font-size: 150%;
+}
+
+#submitbt {
+    width: 100px;
+    height: 100px;
+}
